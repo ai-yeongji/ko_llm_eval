@@ -5,8 +5,7 @@
 
 ## Korean MT-Bench
 - 한국어 MT-Bench 벤치마크 데이터셋으로 LLM 성능평가 진행
-- FastChat/fastchat/llm_judge 디렉토리 내 소스코드로 성능평가 진행가능
-
+- [FastChat/fastchat/llm_judge](https://github.com/ai-yeongji/ko_llm_eval/tree/main/FastChat/fastchat/llm_judge) 디렉토리 내 소스코드로 성능평가 진행가능
 - MT-Bench score를 계산하기 위해서는 다음 3가지 step을 거쳐야 한다.
 
 > 1. 성능 평가 대상 LLM으로 벤치마크 데이터셋의 question에 대해 answer를 생성한다.
