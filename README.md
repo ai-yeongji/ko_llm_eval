@@ -13,7 +13,7 @@
 > 2. GPT-4를 이용해 LLM이 생성한 answer를 평가한다.
 > 3. 각 생성문에 대한 score를 종합하여 최종 MT-bench score를 계산한다.
 
-'''
+```
 cd fastchat/llm_judge
 
 # Step 1. Generate model answers to MT-bench questions
@@ -27,4 +27,4 @@ OPENAI_API_KEY=<API-KEY> python gen_judgment.py --bench-name korean_mt_bench --m
 
 # Step 3. Show MT-bench scores
 python show_result.py --bench-name korean_mt_bench --input-file <step2.에서 생성한 answer jsonl 파일>
-'''
+```
