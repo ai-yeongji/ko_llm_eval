@@ -1,0 +1,1 @@
+python gen_model_answer.py --bench-name korean_mt_bench --model-path 42dot/42dot_LLM-SFT-1.3B  --model-id 42dot_LLM-SFT-1.3B

@@ -1,0 +1,6 @@
+cohere
+langchain_anthropic
+google.generativeai
+omegaconf
+protobuf==3.20.3
+

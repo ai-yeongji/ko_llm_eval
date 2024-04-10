@@ -1,0 +1,1 @@
+python show_result.py --bench-name korean_mt_bench --input-file data/korean_mt_bench/model_judgment/gpt-4_single/42dot_LLM-SFT-1.3B__1turn.jsonl --model-list 42dot_LLM-SFT-1.3B
