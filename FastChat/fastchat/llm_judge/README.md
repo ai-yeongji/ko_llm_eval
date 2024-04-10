@@ -22,7 +22,7 @@ pip install -e ".[model_worker,llm_judge]"
 
 ## Quickstart for Korean MT-Bench
 
-Let's say you want to evaluate `yanolja/EEVE-Korean-Instruct-10.8B-v1.0`:
+Let's say you want to evaluate `42dot/42dot_LLM-SFT-1.3B`:
 
 ```
 cd fastchat/llm_judge
