@@ -17,7 +17,8 @@ To automate the evaluation process, we prompt strong LLMs like GPT-4 to act as j
 ```
 git clone -b korean https://github.com/wandb/FastChat
 cd FastChat
-pip install -e ".[model_worker,llm_judge]"
+pip3 install --upgrade pip # 업그레이드 하고 pip3로 설치해야 함
+pip3 install -e ".[model_worker,llm_judge]"
 ```
 
 ## Quickstart for Korean MT-Bench
